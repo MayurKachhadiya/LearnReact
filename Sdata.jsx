@@ -1,39 +1,90 @@
 const Sdata = [
     {   
         id: '1',
-        imgsrc: 'https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfktHGwetZ4V41qwDYiozGF4887uJ-WZ3G1hYjxnQDvi5EYOHN5Wyqkae8FOR70039nmeUH1nc2OSh9TXPxXbIkcvhsdMPdmDRbm6FjZwbBH6ojiUh4BgpSEh3RE4pZgks6x.jpg?r=31a',
-        sname: 'Mai',
-        title: 'A Netflix Orignal Series',
-        linksrc: 'https://hdhub4u.mba/kgf-chapter-2-2022-hindi-org-webrip-full-movie/',
-     
+        imgsrc: 'https://wallpapercave.com/wp/wp11125691.jpg',
+        sname: 'Bhool Bhulaiyaa 2',
+        title: 'Bhool Bhulaiyaa 2',
+        linksrc: 'https://hdhub4u.onl/bhool-bhulaiyaa-2-2022-hindi-v2-hdcam-full-movie/',
       },
     { 
         id: '2',
-        imgsrc: 'https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABdNF_gxQd-dmxL-0QJrv7rIsfLrC-GvIkSpMr5zhBrb3z7RjywB8IAq3F6mW-Vy6bxvJE-GA3s0j6S-rVvFqRVRFIgUbLykwJnB1QrCQwhHz79UUTW73JtR-r8awy86gRZR_.jpg?r=4d9',
-        sname: 'Kota Factory',
-        title: 'A Netflix Orignal Series',
-        linksrc: 'https://www.netflix.com/in/title/81249783',
+        imgsrc: 'https://www.telugu360.com/wp-content/uploads/2022/04/KGF-2-pre-release.jpg',
+        sname: 'KGF 2',
+        title: 'KGF 2',
+        linksrc: 'https://hdhub4u.onl/kgf-chapter-2-2022-hindi-org-webrip-full-movie/',
       },
       {
         id: '3',
-        imgsrc: 'https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABYtMwSeA1UJEryzPkHmQSzoI17_VV7KWIvbo-wrHLwBWKF9O8F3_qhvgjKkNAdSmsgow1O3u0NID0OVQqgwaQtq4kduqIqF-bW4rBvmDQFpWOQEy1uNPfHbetGOMEIvCBj-6.jpg?r=9b9',
-        sname: 'A Perfect Pairing',
-        title: 'A Netflix Orignal Series',
-        linksrc: 'https://www.netflix.com/in/title/81241465',
-      },
-      {
-        id: '3',
-        imgsrc: 'https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABZmakScbYf0VnUuAMcNKX2fvWcMhPc05rGSPB2K40iTaPuopC1cHqeBNV2y3lOmPrCj928frrP-Xn5SG8aOaLF04eYQQ6Vaag8bQGK8u56F7qEBFPXRJB6RizZMyN0zX5EjC.jpg?r=695',
-        sname: 'Money Heist',
-        title: 'A Netflix Orignal Series',
-        linksrc: 'https://www.netflix.com/in/title/80192098',
+        imgsrc: 'https://images.indianexpress.com/2021/09/RRR-1200.jpg',
+        sname: 'RRR',
+        title: 'RRR',
+        linksrc: 'https://hdhub4u.onl/rrr-rise-roar-revolt-2022-hindi-webrip-full-movie/',
       },
       {
         id: '4',
-        imgsrc: 'https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAAAbjcXCwZYoPlc5ah7tN-y2d7Dmeftx_xAvXXAMBm92yUtSDMfOBMciLwWMgQ6_KTnhfwR4RyHnBwBuHZLrlZH54SarYZ1UcVv2Th5lnli_jC6TFhN6JxcVmfKxbVOcArrwfF.jpg?r=dcb',
-        sname: 'Stranger Things',
-        title: 'A Netflix Orignal Series',
-        linksrc: 'https://www.netflix.com/in/title/80057281',
+        imgsrc: 'https://myimg.bid/images/2022/06/04/Sarkaru-Vaari-Paata-2022-Hindi-Dubbed-HDRip-Full-Movie3df5c5b571f448c1.jpg',
+        sname: 'Sarkaru',
+        title: 'Sarkaru',
+        linksrc: 'https://hdhub4u.onl/sarkaru-vaari-paata-2022-hq-hindi-dubbed-webrip-full-movie/',
+      },
+      {
+        id: '5',
+        imgsrc: 'https://myimg.bid/images/2022/05/27/RunWay-34-2022-Hindi-HDRip-Full-Movie.jpg',
+        sname: 'Runway 34',
+        title: 'Runway 34',
+        linksrc: 'https://hdhub4u.onl/runway-34-2022-hindi-webrip-full-movie/',
+      },
+      {
+        id: '6',
+        imgsrc: 'https://akm-img-a-in.tosshub.com/aajtak/images/story/202111/img-20211115-wa0024_1-sixteen_nine.jpg?size=948:533',
+        sname: 'Samrat Prithviraj Chauhan',
+        title: 'Samrat Prithviraj Chauhan',
+        linksrc: 'https://hdhub4u.onl/samrat-prithviraj-2022-hindi-hdcamrip-full-movie/',
+      }, {
+        id: '7',
+        imgsrc: 'https://myimg.bid/images/2022/06/04/MV5BNGExZmExMzAtZTJhMy00NzI5LTk2NzYtNzU2NTBlMTgzYmM2XkEyXkFqcGdeQXVyMTE2NDE2Njcy._V1_.jpg',
+        sname: 'AASHRAM 3',
+        title: 'AASHRAM 3',
+        linksrc: 'https://hdhub4u.onl/aashram-s03-hindi-webrip-all-episodes/',
+      }, {
+        id: '8',
+        imgsrc: 'https://cdn.siasat.com/wp-content/uploads/2021/02/alia-bhatt.jpg',
+        sname: 'Gangubai',
+        title: 'GANGUBAI KATHIYAWADI',
+        linksrc: 'https://hdhub4u.onl/gangubai-kathiawadi-2022-hindi-webrip-full-movie/',
+      }, {
+        id: '9',
+        imgsrc: 'https://i.ytimg.com/vi/Ma3Y-qekYos/maxresdefault.jpg',
+        sname: 'ATTACK',
+        title: 'ATTACK',
+        linksrc: 'https://hdhub4u.onl/attack-part-1-2022-hindi-hdrip-full-movie/',
+      },{
+        id: '10',
+        imgsrc: 'https://upload.wikimedia.org/wikipedia/en/e/e5/Atrangi_Re_film_poster.jpg',
+        sname: 'Atrangi Re',
+        title: 'ATRANGI RE',
+        linksrc: 'https://hdhub4u.onl/atrangi-re-2021-hindi-webrip-full-movie/',
+      }, {
+        id: '11',
+        imgsrc: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTAY3NEEcdyk9xbinmK_PgI0zX5otw3-xkTmvvDHSHoN1Q6MrYk',
+        sname: 'DIL BECHARA',
+        title: 'DIL BECHARA',
+        linksrc: 'https://hdhub4u.onl/dil-bechara-2020-hindi-webrip/',
+      },{
+        id: '12',
+        imgsrc: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSYuIIXQGyqgoPnoM8ihL3iI3Kj2-d2Ki1sAbgAOvL-gNokrlee',
+        sname: 'INSIDE EDGE',
+        title: 'INSIDE EDGE',
+        linksrc: 'https://hdhub4u.onl/inside-edge-season-3-hindi-webrip-all-episodes/',
       }
 ];
 export default Sdata;
+
+
+
+
+
+
+
+
+

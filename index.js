@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './netflix.css';
+import logo from './Image/logo.jpg';
+import Header from './Header';
+import Sdata from './Sdata';
+import Card from './Card';
 // import Netflix from './Netfix';
 // import Amazon from './Amazon';
 // import App from './App';
 // import Counter from './Counter';
 // import Time from './Time';
 // import Color from './Color';
-import Form from './Form';
+// import Form from './Form';
 
 // const screen = 'Amazon';
 // const Abc = ()=>{
@@ -45,9 +49,28 @@ import Form from './Form';
 //       }
 // }
 
+function ncard(val){
+    console.log(val);
+    return(
+        <Card 
+        imgsrc={val.imgsrc}
+        title={val.title}
+        sname={val.sname}
+        linksrc={val.linksrc}
+        />
+    );
+}
 
 ReactDOM.render(
     <>
+    {/* <Header/> */}
+    <h1 style={{color:'white'}} align='center' className='heading_style'><logo/> List of Top New Movies</h1>
+    <div className='container'>
+    {Sdata.map(ncard)}
+
+    </div>
+
+    {/* <Card/> */}
    {/* <h1 className='heading_style'>🎰 Welcome to <span style={{fontweidth: 'bold'} }>Slot Matchine Game</span> 🎰</h1>
         <SlotM/>
         <SlotM/>
@@ -55,6 +78,6 @@ ReactDOM.render(
         {/* <Counter/> */}
         {/* <Time/> */}
         {/* <Color/> */}
-        <Form/>
+        {/* <Form/> */}
     </>,document.getElementById('root')
 );

@@ -4,41 +4,19 @@ function Card(pro) {
     console.log(pro);
     return(
         <>
-  <div class="container">
     <div class="card">
       <div class="box">
         <div class="content">
-        <img src={pro.imgsrc} alt='myPic' className='card_image'/>
-        <span>{pro.title}</span>
-          <h3>{pro.name}</h3>
+        <img style={{width:299,height:168}} src={pro.imgsrc} alt='myPic' className='card_image'/>
+        <span color='white'>{pro.title}</span>
+          <h3 color='white'>{pro.name}</h3>
           <a href={pro.linksrc}>WATCH NOW</a>
         </div>
       </div>
     </div>
-    <div class="card">
-      <div class="box">
-        <div class="content">
-        <img src={pro.imgsrc} alt='myPic' className='card_image'/>
-        <span>{pro.title}</span>
-          <h3>{pro.name}</h3>
-          <a href={pro.linksrc}>WATCH NOW</a>
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="box">
-        <div class="content">
-        <img src={pro.imgsrc} alt='myPic' className='card_image'/>
-        <span>{pro.title}</span>
-          <h3>{pro.name}</h3>
-          <a href={pro.linksrc}>WATCH NOW</a>
-        </div>
-      </div>
-    </div>
-  </div>
+   
 </>
     );
   }
 
   export default Card;
-  // creativemultimedia
